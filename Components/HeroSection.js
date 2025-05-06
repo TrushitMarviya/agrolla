@@ -1,48 +1,43 @@
-import Head from 'next/head';
-import '../styles/Home.css';
+"use client"; // Ensure this is at the top for client-side rendering in Next.js App Router
+
+import Head from "next/head";
+import { useState, useEffect } from "react";
+import styles from "../CSS/HeroSection.module.css"; // Import as a CSS module
 
 export default function Home() {
+  const [showFarmer, setShowFarmer] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowFarmer(true);
+    }, 1900);
+
+    return () => clearTimeout(timeout);
+  }, []);
   return (
     <>
       <Head>
-        <title>Agrolla Impex</title>
+        <title>Animated Hero</title>
       </Head>
-      <div className="hero-container">
-        <nav className="navbar">
-          <div className="logo">AGROLLA <span>IMPEX</span></div>
-          <ul className="nav-links">
-            <li>Home</li>
-            <li>Products</li>
-            <li>About us</li>
-            <li>Contact</li>
-          </ul>
-          <button className="quote-btn">Get Quote</button>
-        </nav>
+      <div className={styles.hero}>
+        <img src="/cloud.png" alt="Cloud" className={styles.cloud} />
+        <img src="/birds.svg" alt="Birds" className={styles.birds} />
+        <img src="/cloud.png" alt="Cloud" className={styles.cloud} />
+        <img src="/birds.svg" alt="Birds" className={styles.birds} />
 
-        <div className="hero-content">
-          <div className="sky-elements">
-            <img src="/images/sun.png" className="sun" alt="sun" />
-            <img src="/images/cloud.png" className="cloud cloud1" alt="cloud" />
-            <img src="/images/cloud.png" className="cloud cloud2" alt="cloud" />
-          </div>
-          <h1>
-            <span className="highlight">Rev</span>olutionizing <br />
-            <span className="highlight">Agriculture</span>
-          </h1>
-          <p>
-            Agrolla delivers cutting-edge agricultural solutions that maximize yield, minimize environmental impact,
-            and transform farming practices for a sustainable future.
-          </p>
-          <div className="btn-group">
-            <button className="explore">Explore Services</button>
-            <button className="contact">Contact Us</button>
-          </div>
-          <div className="ground-scene">
-            <img src="/images/windmill.png" className="windmill" alt="windmill" />
-            <img src="/images/farmer.png" className="farmer" alt="farmer" />
-            <img src="/images/tractor.png" className="tractor" alt="tractor" />
-          </div>
+        <div className={styles.windmill}>
+          <img src="/wings.svg" alt="Wings" className={styles.wings} />
+          <img src="/windmillstand.svg" alt="WindMillStand" className={styles.wingstand} />
+          <img src="/side-wing.svg" alt="Side Wing" className={styles.sideWing} />
         </div>
+
+        {showFarmer && (
+          <img src="/farmer.png" alt="Farmer" className={styles.farmer} />
+        )}
+
+        <img src="/tractor.svg" alt="Tractor" className={styles.tractor} />
+        <img src="/land.png" alt="Land" className={styles.land} />
+        
       </div>
     </>
   );
