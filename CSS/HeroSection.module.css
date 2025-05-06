@@ -15,15 +15,15 @@
 
 .birds {
   position: absolute;
-  top: 6%;
-  width: 200px;
+  top: 16%;
+  width: 100px;
   animation: fly 6s linear infinite;
 }
 
 .farmer {
   position: absolute;
-  bottom: 39px;
-  left: 10%;
+  bottom: -29px;
+  left: -1150px;
   width: 550px;
 }
 
@@ -38,12 +38,12 @@
   height: 320px;
   position: absolute;
   top: -155px;
-  left: -1205px;
+  left: -1165px;
 }
 .wings {
   position: relative;
-  top: -250px;
-  left: -1230px; 
+  top: -256px;
+  left: -1190px; 
   transform: translate(-50%, -50%);
   width: 100%;
   animation: spin 4s linear infinite;
@@ -52,7 +52,7 @@
 .sideWing {
   position: absolute;
   top: -185px; /* Adjusted for proper placement */
-  left: -1110px; /* Adjusted for proper placement */
+  left: -1070px; /* Adjusted for proper placement */
   width: 60%;
   /* Static, no animation */
 }
@@ -60,7 +60,7 @@
   position: absolute;
   bottom: 29px; /* You had `-25` without a unit */
   left: 0px;
-  width: 750px;
+  width: 700px;
   animation: moveTractor 5s ease-in-out forwards; /* Added 'forwards' */
 }
 .land{
@@ -68,16 +68,9 @@
   width: 100%;
   position: absolute;
   bottom: 0px;
+  left: 0px;
 }
-.tractor-wheel {
-  position: absolute;
-  bottom: 0; /* Adjust based on the tractor's design */
-  width: 100px; /* Adjust size as needed */
-  height: 100px; /* Adjust size as needed */
-  border-radius: 50%; /* Make it circular */
-  background-color: black; /* Example color */
-  animation: rotateWheel 1s linear infinite; /* Rotating animation */
-}
+
 
 /* Animations */
 @keyframes float {
@@ -98,7 +91,7 @@
 }
 
 @keyframes moveTractor {
-  0% { transform: translateX(0vw); }
+  0% { transform: translateX(35vw); }
   50% { transform: translateX(50vw); }
   100% { transform: translateX(50vw); }
 }
@@ -111,3 +104,23 @@
     transform: rotate(360deg);
   }
 }
+.wheatStalk {
+  transform-origin: bottom;
+  animation: grow 3s ease-out forwards;
+  position: absolute;
+  bottom: 50px;
+  left: 350px;
+}
+.wheatStalk img{
+  padding-left: 15px;
+}
+@keyframes grow {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+
