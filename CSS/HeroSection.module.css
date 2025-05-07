@@ -8,17 +8,25 @@
 .cloud {
   position: absolute;
   top: 2%;
-  left: 5%;
+  left: 12%;
   width: 250px;
-  animation: float 5s linear infinite; 
+  animation: float 3s linear; 
+}
+.cloud2 {
+  position: absolute;
+  top: -5%;
+  left: 42%;
+  width: 250px;
+  animation: float2 3s linear; 
+}
+.cloud3 {
+  position: absolute;
+  top: 2%;
+  left: 75%;
+  width: 250px;
+  animation: float 3s linear; 
 }
 
-.birds {
-  position: absolute;
-  top: 16%;
-  width: 100px;
-  animation: fly 6s linear infinite;
-}
 
 .farmer {
   position: absolute;
@@ -46,22 +54,21 @@
   left: -1190px; 
   transform: translate(-50%, -50%);
   width: 100%;
-  animation: spin 4s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 .sideWing {
   position: absolute;
-  top: -185px; /* Adjusted for proper placement */
-  left: -1070px; /* Adjusted for proper placement */
+  top: -185px; 
+  left: -1070px; 
   width: 60%;
-  /* Static, no animation */
 }
 .tractor {
   position: absolute;
-  bottom: 29px; /* You had `-25` without a unit */
+  bottom: 29px; 
   left: 0px;
   width: 700px;
-  animation: moveTractor 5s ease-in-out forwards; /* Added 'forwards' */
+  animation: moveTractor 3s ease-in-out forwards; 
 }
 .land{
   height: 70px;
@@ -71,19 +78,41 @@
   left: 0px;
 }
 
+.birds {
+  position: absolute;
+  top: 16%;
+  width: 100px;
+  animation: fly 3s linear forwards; 
+}
+
+.birds2 {
+  position: absolute;
+  top: 16%;
+  left: 16%;
+  width: 100px;
+  animation: fly2 3s linear forwards;
+}
 
 /* Animations */
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
+@keyframes fly {
   0% { transform: translateX(-200px); }
-  100% { transform: translateX(100vw); }
+  100% { transform: translateX(12vw); } 
 }
 
-@keyframes fly {
-  0%, 100% { transform: translateY(0); }
-  0% { transform: translateX(-200px); }
-  100% { transform: translateX(100vw); }
+@keyframes fly2 {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(50vw); } 
 }
+
+@keyframes float {
+  0% { transform: translatey(-200px); }
+  100% { transform: translatey(0.8vw); }
+}
+@keyframes float2 {
+  0% { transform: translatey(-200px); }
+  100% { transform: translatey(0.1vw); }
+}
+
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -96,14 +125,7 @@
   100% { transform: translateX(50vw); }
 }
 
-@keyframes rotateWheel {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 .wheatStalk {
   transform-origin: bottom;
   animation: grow 3s ease-out forwards;
@@ -112,7 +134,7 @@
   left: 350px;
 }
 .wheatStalk img{
-  padding-left: 15px;
+  padding-left: 10px;
 }
 @keyframes grow {
   from {

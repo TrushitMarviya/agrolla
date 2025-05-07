@@ -10,7 +10,7 @@ export default function Home() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowWheatStalks(true); // Show wheat stalks after a delay
-    }, 2000); // Delay in milliseconds (3 seconds)
+    }, 1000); // Delay in milliseconds (3 seconds)
 
     return () => clearTimeout(timeout); // Cleanup timeout on component unmount
   }, []);
@@ -22,9 +22,10 @@ export default function Home() {
       </Head>
       <div className={styles.hero}>
         <img src="/cloud.png" alt="Cloud" className={styles.cloud} />
+        <img src="/cloud.png" alt="Cloud" className={styles.cloud2} />
+        <img src="/cloud.png" alt="Cloud" className={styles.cloud3} />
         <img src="/birds.svg" alt="Birds" className={styles.birds} />
-        <img src="/cloud.png" alt="Cloud" className={styles.cloud} />
-        <img src="/birds.svg" alt="Birds" className={styles.birds} />
+        <img src="/birds.svg" alt="Birds" className={styles.birds2} />
 
         <div className={styles.windmill}>
           <img src="/wings.svg" alt="Wings" className={styles.wings} />
