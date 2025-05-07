@@ -1,6 +1,5 @@
 "use client";
 
-import Head from "next/head";
 import { useState, useEffect } from "react";
 import styles from "../CSS/HeroSection.module.css";
 
@@ -59,18 +58,19 @@ export default function Home() {
           <div className={styles.tractorWheel}></div>
         </div>
 
-        {showWheatStalks && ( // Conditionally render wheat stalks
-          <div className={styles.wheatStalk}>
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-            <img src="/wheat-stalk.svg" alt="Wheat-Stalk" />
-          </div>
-        )}
+        {showWheatStalks && (
+  <div className={styles.wheatStalk}>
+    {[...Array(8)].map((_, i, arr) => (
+      <img
+        key={i}
+        src="/wheat-stalk.svg"
+        alt="Wheat-Stalk"
+        className={`${styles.wheatStalkImg} ${styles.grow}`}
+        style={{ animationDelay: `${(arr.length - 1 - i) * 0.5}s` }} // Reverse order
+      />
+    ))}
+  </div>
+)}
 
         <img src="/land.png" alt="Land" className={styles.land} />
       </div>
@@ -84,8 +84,8 @@ export default function Home() {
           for a sustainable future.
         </p>
         <div className={styles.btns}>
-        <button className={styles.btn1}>Explore Services</button>
-        <button className={styles.btn2}>Contact Us</button>
+          <button className={styles.btn1}>Explore Services</button>
+          <button className={styles.btn2}>Contact Us</button>
         </div>
       </div>
     </>
