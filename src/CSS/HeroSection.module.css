@@ -84,7 +84,7 @@
   left: 15%;
   width: 100px;
   opacity: 0; 
-  animation: fadeIn 3s ease-in forwards; 
+  animation: fadeIn 2s ease-in forwards infinite; 
 }
 
 .birds2 {
@@ -93,7 +93,7 @@
   left: 70%;
   width: 100px;
   opacity: 0; 
-  animation: fadeIn 3s ease-in forwards; 
+  animation: fadeIn 2s ease-in forwards infinite; 
 }
 
 @keyframes fadeIn {
@@ -200,6 +200,11 @@
   font-weight:600;
   font-size: 16px;
   line-height: 60px;
+}
+.navlinks a:hover {
+  color: #2E7D32;
+  text-decoration: underline; /* Add underline on hover */
+  text-underline-offset: 6px; /* Optional: Adjust the distance of the underline */
 }
 .bt1 {
   width: 120px;

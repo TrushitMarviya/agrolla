@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import styles from "../CSS/HeroSection.module.css";
+import styles from "@/CSS/HeroSection.module.css"
 
 export default function Home() {
   const [showWheatStalks, setShowWheatStalks] = useState(false);
@@ -24,7 +24,7 @@ export default function Home() {
               Home
             </a>
             <a href="">Products</a>
-            <a href="">About us</a>
+            <a href="/about">About us</a>
             <a href="">Contact</a>
           </div>
           <button className={styles.bt1}>Get Quote</button>
@@ -59,18 +59,18 @@ export default function Home() {
         </div>
 
         {showWheatStalks && (
-  <div className={styles.wheatStalk}>
-    {[...Array(8)].map((_, i, arr) => (
-      <img
-        key={i}
-        src="/wheat-stalk.svg"
-        alt="Wheat-Stalk"
-        className={`${styles.wheatStalkImg} ${styles.grow}`}
-        style={{ animationDelay: `${(arr.length - 1 - i) * 0.5}s` }} // Reverse order
-      />
-    ))}
-  </div>
-)}
+          <div className={styles.wheatStalk}>
+            {[...Array(8)].map((_, i, arr) => (
+              <img
+                key={i}
+                src="/wheat-stalk.svg"
+                alt="Wheat-Stalk"
+                className={`${styles.wheatStalkImg} ${styles.grow}`}
+                style={{ animationDelay: `${(arr.length - 1 - i) * 0.5}s` }} // Reverse order
+              />
+            ))}
+          </div>
+        )}
 
         <img src="/land.png" alt="Land" className={styles.land} />
       </div>
