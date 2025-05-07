@@ -11,21 +11,21 @@
   top: 5%;
   left: 12%;
   width: 250px;
-  animation: float 3s linear ;
+  animation: float 3s linear;
 }
 .cloud2 {
   position: absolute;
   top: -2%;
   left: 42%;
   width: 250px;
-  animation: float2 3s linear ;
+  animation: float2 3s linear;
 }
 .cloud3 {
   position: absolute;
   top: 5%;
   left: 75%;
   width: 250px;
-  animation: float 3s linear ;
+  animation: float 3s linear;
 }
 
 .farmer {
@@ -68,7 +68,7 @@
   bottom: 29px;
   left: 0px;
   width: 600px;
-  animation: moveTractor 5s ease-in-out forwards ;
+  animation: moveTractor 5s ease-in-out forwards;
 }
 .land {
   height: 70px;
@@ -83,8 +83,8 @@
   top: 16%;
   left: 15%;
   width: 100px;
-  opacity: 0; 
-  animation: fadeIn 2s ease-in forwards ; 
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
 }
 
 .birds2 {
@@ -92,18 +92,18 @@
   top: 16%;
   left: 70%;
   width: 100px;
-  opacity: 0; 
-  animation: fadeIn 2s ease-in forwards; 
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
 }
 
 @keyframes fadeIn {
   0% {
-    opacity: 0; 
-    transform: translateY(-20px); 
+    opacity: 0;
+    transform: translateY(-20px);
   }
   100% {
     opacity: 1;
-    transform: translateY(0); 
+    transform: translateY(0);
   }
 }
 
@@ -157,11 +157,11 @@
 .wheatStalkImg {
   height: 65px;
   width: 30px;
-  opacity: 0; 
+  opacity: 0;
 }
 
 .grow {
-  animation: grow 0.8s  forwards;
+  animation: grow 0.8s forwards;
 }
 
 @keyframes grow {
@@ -176,11 +176,15 @@
 .navbar {
   height: 60px;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: absolute;
   z-index: 100;
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0px;
+  background: transparent;
+  backdrop-filter: blur(5px);
 }
 .navsection {
   height: inherit;
@@ -193,16 +197,16 @@
   padding: 1%;
 }
 .navlinks a {
-  color: #4E4E4E;
+  color: #4e4e4e;
   text-decoration: none;
   padding-left: 25px;
   font-family: "Poppins", sans-serif;
-  font-weight:600;
+  font-weight: 600;
   font-size: 16px;
   line-height: 60px;
 }
 .navlinks a:hover {
-  color: #2E7D32;
+  color: #2e7d32;
   text-decoration: underline; /* Add underline on hover */
   text-underline-offset: 6px; /* Optional: Adjust the distance of the underline */
 }
@@ -212,15 +216,15 @@
   margin-top: 9px;
   border-radius: 10px;
   border: none;
-  background-color: #2E7D32;
-  color: #FFFFFF;
+  background-color: #2e7d32;
+  color: #ffffff;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
   z-index: 1;
 }
-.heroText{
+.heroText {
   height: auto;
   width: 500px;
   position: absolute;
@@ -228,13 +232,13 @@
   left: 32%;
   text-align: center;
 }
-.heroName{
+.heroName {
   font-size: 40px;
   font-family: "Poppins", sans-serif;
   color: #111827;
   font-weight: 700;
 }
-.hero2{
+.hero2 {
   font-family: "Poppins", sans-serif;
   color: #374151;
   font-weight: 400;
@@ -243,49 +247,49 @@
   padding-left: 40px;
   padding-right: 40px;
 }
-.btns{
+.btns {
   margin-top: 30px;
   display: flex;
-  justify-content: center ;
+  justify-content: center;
 }
-.btn1{
+.btn1 {
   height: 42px;
   width: 150px;
-  background-color: #2E7D32;
+  background-color: #2e7d32;
   border-radius: 5px;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-.btn1:hover{
+.btn1:hover {
   height: 42px;
   width: 150px;
   background-color: #2e7d32d2;
   border-radius: 5px;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-.btn2{
+.btn2 {
   height: 42px;
   width: 150px;
   background-color: #ffffff;
   border-radius: 5px;
-  border: 2px solid #2E7D32;
-  color: #2E7D32;
+  border: 2px solid #2e7d32;
+  color: #2e7d32;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin-left: 1rem;
 }
-.btn2:hover{
+.btn2:hover {
   height: 42px;
   width: 150px;
-  background-color:#2e7d3221;
+  background-color: #2e7d3221;
   border-radius: 5px;
-  border: 2px solid #2E7D32;
-  color: #2E7D32;
+  border: 2px solid #2e7d32;
+  color: #2e7d32;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin-left: 1rem;
