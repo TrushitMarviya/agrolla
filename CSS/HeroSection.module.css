@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .hero {
   position: relative;
   width: 100%;
@@ -7,26 +8,25 @@
 
 .cloud {
   position: absolute;
-  top: 2%;
+  top: 5%;
   left: 12%;
   width: 250px;
-  animation: float 3s linear; 
+  animation: float 3s linear;
 }
 .cloud2 {
   position: absolute;
-  top: -5%;
+  top: -2%;
   left: 42%;
   width: 250px;
-  animation: float2 3s linear; 
+  animation: float2 3s linear;
 }
 .cloud3 {
   position: absolute;
-  top: 2%;
+  top: 5%;
   left: 75%;
   width: 250px;
-  animation: float 3s linear; 
+  animation: float 3s linear;
 }
-
 
 .farmer {
   position: absolute;
@@ -37,12 +37,12 @@
 
 .windmill {
   position: absolute;
-  bottom: 10%; 
-  right: 10%; 
+  bottom: 10%;
+  right: 10%;
   width: 150px;
   height: auto;
 }
-.wingstand{
+.wingstand {
   height: 320px;
   position: absolute;
   top: -155px;
@@ -51,7 +51,7 @@
 .wings {
   position: relative;
   top: -256px;
-  left: -1190px; 
+  left: -1190px;
   transform: translate(-50%, -50%);
   width: 100%;
   animation: spin 3s linear infinite;
@@ -59,18 +59,18 @@
 
 .sideWing {
   position: absolute;
-  top: -185px; 
-  left: -1070px; 
+  top: -185px;
+  left: -1070px;
   width: 60%;
 }
 .tractor {
   position: absolute;
-  bottom: 29px; 
+  bottom: 29px;
   left: 0px;
-  width: 700px;
-  animation: moveTractor 3s ease-in-out forwards; 
+  width: 650px;
+  animation: moveTractor 5s ease-in-out forwards;
 }
-.land{
+.land {
   height: 70px;
   width: 100%;
   position: absolute;
@@ -81,50 +81,69 @@
 .birds {
   position: absolute;
   top: 16%;
+  left: 15%;
   width: 100px;
-  animation: fly 3s linear forwards; 
+  opacity: 0; 
+  animation: fadeIn 3s ease-in forwards; 
 }
 
 .birds2 {
   position: absolute;
   top: 16%;
-  left: 16%;
+  left: 70%;
   width: 100px;
-  animation: fly2 3s linear forwards;
+  opacity: 0; 
+  animation: fadeIn 3s ease-in forwards; 
 }
 
-/* Animations */
-@keyframes fly {
-  0% { transform: translateX(-200px); }
-  100% { transform: translateX(12vw); } 
-}
-
-@keyframes fly2 {
-  0% { transform: translateX(0px); }
-  100% { transform: translateX(50vw); } 
+@keyframes fadeIn {
+  0% {
+    opacity: 0; 
+    transform: translateY(-20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
 }
 
 @keyframes float {
-  0% { transform: translatey(-200px); }
-  100% { transform: translatey(0.8vw); }
+  0% {
+    transform: translatey(-200px);
+  }
+  100% {
+    transform: translatey(0.1vw);
+  }
 }
 @keyframes float2 {
-  0% { transform: translatey(-200px); }
-  100% { transform: translatey(0.1vw); }
+  0% {
+    transform: translatey(-200px);
+  }
+  100% {
+    transform: translatey(0.1vw);
+  }
 }
 
-
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
 }
 
 @keyframes moveTractor {
-  0% { transform: translateX(35vw); }
-  50% { transform: translateX(50vw); }
-  100% { transform: translateX(50vw); }
+  0% {
+    transform: translateX(35vw);
+  }
+  50% {
+    transform: translateX(50vw);
+  }
+  100% {
+    transform: translateX(50vw);
+  }
 }
-
 
 .wheatStalk {
   transform-origin: bottom;
@@ -133,7 +152,7 @@
   bottom: 50px;
   left: 350px;
 }
-.wheatStalk img{
+.wheatStalk img {
   padding-left: 10px;
 }
 @keyframes grow {
@@ -144,5 +163,137 @@
     transform: scaleY(1);
   }
 }
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}
+.navsection {
+  height: inherit;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 100%;
+  padding: 1%;
+}
+.navlinks a {
+  color: #4E4E4E;
+  text-decoration: none;
+  padding-left: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight:600;
+  font-size: 16px;
+  line-height: 60px;
+}
+.bt1 {
+  width: 120px;
+  height: 40px;
+  margin-top: 9px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2E7D32;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  position: relative; /* Required for positioning pseudo-elements */
+  overflow: hidden; /* Ensures pseudo-elements don't overflow the button */
+  z-index: 1;
+}
 
+.bt1::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left:00px;
+  width: 0%;
+  height: 200%;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  transition: all 0.3s ease;
+  z-index: -1; 
+  display: block;
+  border: none;
+}
+.bt1::after {
+  bottom: 0;
+  left: 0;
+}
 
+.bt1:hover::after {
+  width: 100%; 
+}
+.heroText{
+  height: auto;
+  width: 500px;
+  position: absolute;
+  top: 175px;
+  left: 32%;
+  text-align: center;
+}
+.heroName{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #111827;
+  font-weight: 700;
+}
+.hero2{
+  font-family: "Poppins", sans-serif;
+  color: #374151;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.btns{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center ;
+}
+.btn1{
+  height: 42px;
+  width: 150px;
+  background-color: #2E7D32;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.btn1:hover{
+  height: 42px;
+  width: 150px;
+  background-color: #2e7d32d2;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.btn2{
+  height: 42px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #2E7D32;
+  color: #2E7D32;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+.btn2:hover{
+  height: 42px;
+  width: 150px;
+  background-color:#2e7d3221;
+  border-radius: 5px;
+  border: 2px solid #2E7D32;
+  color: #2E7D32;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-left: 1rem;
+}
