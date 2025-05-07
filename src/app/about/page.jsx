@@ -1,5 +1,8 @@
-export default function page() {
+import '@/app/about/about.css'
+export default function About() {
   return (
-    <div>page</div>
-  )
+    <>
+    <h1>This is About Page</h1>
+    </>
+  );
 }
