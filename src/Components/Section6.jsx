@@ -10,7 +10,7 @@ export default function Section6() {
         </div>
       </center>
       <h1>
-      Capturing Agricultural<span style={{ color: "#2E7D32" }}>Excellence</span> 
+      Capturing Agricultural <span style={{ color: "#2E7D32" }}>Excellence</span> 
       </h1>
       <h5>
       Experience the beauty and innovation of modern agriculture through our lens. Each
@@ -26,9 +26,15 @@ export default function Section6() {
         </div>
         <div className="sece3">
             <img src="/gal4.png" alt="" />
-        </div>
+        </div> 
     </div>
-
+    <hr className="hr1"/>
+    <div className="gallery2">
+        <img src="/gal5.png" alt="" />
+        <img src="/gal6.png" alt="" />
+        <img src="/gal7.png" alt="" />
+        <img src="/gal8.png" alt="" />
+    </div>
 
 
 

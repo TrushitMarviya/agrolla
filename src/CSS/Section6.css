@@ -57,6 +57,10 @@
     width: 100%;
     padding-top: 20px;
 }
+.sece1:hover{
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
 .sece2 {
   height: 100%;
   width: 33%;
@@ -69,10 +73,18 @@
 #im1{
     height: 50%;
 }
+#im1:hover{
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
 #im2{
     position: relative;
     top: -15px;
     height: 51%;
+}
+#im2:hover{
+  transform: scale(1.02);
+  transition-duration: 0.5s;
 }
 .sece3 {
   height: 100%;
@@ -82,4 +94,26 @@
     height: 100%;
     width: 100%;
     padding-top: 20px;
+}
+.sece3:hover{
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+.hr1{
+    flex: 2;
+    width: 80%;
+    border: 2px solid #ccc;
+    margin-left: 10%;
+}
+.gallery2{
+    margin-top: 30px;
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery2 img:hover{
+  transform: scale(1.02);
+  transition-duration: 0.5s;
 }
