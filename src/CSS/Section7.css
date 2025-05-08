@@ -19,29 +19,31 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .slider {
-  height: 350px;
+  height: 400px;
   width: 100%;
   margin-top: 50px;
 }
 .swiper {
   margin-top: 20px;
-  height: 300px;
+  height: 350px;
   width: 90%;
   margin-left: 10%;
+  padding-top: 15px !important;
 }
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    border-radius: 16px;
-    border: 2px solid #a3a3a330;
-    transition: transform 0.3s ease, 0.3s ease;
-  }
-  
-  .swiper-slide:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 2, 0.5); 
-  }
+  height: 300px !important;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  border-radius: 16px;
+  border: 2px solid #a3a3a330;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform box-shadow 0.3s ease, 0.3s ease;
+}
+.swiper-slide:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.24), 0 10px 20px rgba(0, 0, 2, 0.24);
+}
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -120,25 +122,25 @@
   left: -55px;
 }
 .passion2 {
-    color: #4b5563;
-    font-size: 18px;
+  color: #4b5563;
+  font-size: 18px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
   top: -50px;
   left: 5px;
 }
 .userinfo3 {
-    height: 80px;
-    width: 100%;
-  }
-  .userinfo3 img {
-    margin-top: 5px;
-    margin-left: 16px;
-    height: 60px;
-    width: 60px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
+  height: 80px;
+  width: 100%;
+}
+.userinfo3 img {
+  margin-top: 5px;
+  margin-left: 16px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 .name3 {
   color: #111827;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;

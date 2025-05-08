@@ -47,7 +47,7 @@ export default function Section7() {
           pagination={{ clickable: true }}
           navigation={false}
           autoplay={{
-            delay: 1500,
+            delay: 1000,
             disableOnInteraction: false,
           }}
           modules={[Pagination, Autoplay]}
