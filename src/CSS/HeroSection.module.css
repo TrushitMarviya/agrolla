@@ -149,8 +149,9 @@
   position: relative;
   top: 570px;
   width: 300px;
-  gap: 5px;
+  gap: 4px;
   position: relative;
+  top: 570px;
   margin-left: 345px;
 }
 
