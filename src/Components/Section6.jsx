@@ -20,8 +20,13 @@ export default function Section6() {
         <div className="sece1">
             <img src="/gal1.png" alt="" />
         </div>
-        <div className="sece2"></div>
-        <div className="sece3"></div>
+        <div className="sece2">
+            <img src="/gal2.png" alt="" id="im1"/>
+            <img src="/gal3.png" alt="" id="im2" />
+        </div>
+        <div className="sece3">
+            <img src="/gal4.png" alt="" />
+        </div>
     </div>
 
 

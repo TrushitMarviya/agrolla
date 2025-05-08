@@ -10,7 +10,7 @@ export default function Section2() {
               100% ORGANIC
             </div>
             <p className="text1">Fresh From Farm</p>
-            <p className="text2">Healthy Produce For Every Home</p>
+            <p className="text2" style={{color:"#111827"}}>Healthy Produce For Every Home</p>
             <p className="text3">
               Discover nature's finest organic produce, carefully <br /> cultivated and
               harvested to bring the freshest, most <br /> nutritious food directly
