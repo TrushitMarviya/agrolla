@@ -1,4 +1,4 @@
-"use client" ;
+"use client";
 
 import "@/CSS/Section4.css";
 import $ from "jquery"; // Import jQuery
@@ -6,27 +6,26 @@ import { useEffect } from "react";
 
 export default function Section4() {
   useEffect(() => {
-    // jQuery counter logic
     $(".counter-number").each(function () {
       const $this = $(this);
-      const countTo = $this.text().replace("+", ""); // Remove "+" for counting
-      $this.text("0"); // Initialize with 0
+      const countTo = $this.text().replace("+", ""); 
+      $this.text("0"); 
 
       $({ countNum: $this.text() }).animate(
         { countNum: countTo },
         {
-          duration: 2000, // Animation duration in milliseconds
+          duration: 2500,
           easing: "swing",
           step: function () {
             $this.text(Math.floor(this.countNum) + "+");
           },
           complete: function () {
-            $this.text(this.countNum + "+"); // Add "+" back after animation
+            $this.text(this.countNum + "+");
           },
         }
       );
     });
-  }, []); // Run once when the component mounts
+  }, []);
 
   return (
     <div className="main-contain">
@@ -69,6 +68,7 @@ export default function Section4() {
               <div className="counter-title">States Covered</div>
             </div>
           </div>
+          <button className="btn11">Contact Us</button>
         </div>
       </div>
     </div>

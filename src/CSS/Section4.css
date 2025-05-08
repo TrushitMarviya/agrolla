@@ -3,19 +3,17 @@
 .main-contain {
   height: 536px;
   width: 100%;
-  border: 2px solid red;
   display: flex;
   justify-content: center;
 }
 .sec1 {
   height: inherit;
   width: 80%;
-  border: 2px solid ;
   margin-bottom: 80px;
   display: flex;
 }
 .image{
-    height:90%;
+    height:85%;
     width: 50%;
     position: relative;
     top: 40px;
@@ -23,21 +21,20 @@
 .txt{
     height: 100%;
     width: 50%;
-    border: 2px solid red;
 }
 .txt h1{
   font-family: "Poppins", sans-serif;
     font-weight: bolder;
     font-size: 40px;
     padding-left: 25px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .txt h5{
   font-family: "Poppins", sans-serif;
   padding-left: 25px;
   padding-right: 24px;
   font-size: 14px;
-  padding-top: 20px;
+  padding-top: 25px;
   font-weight: 400;
   color: #374151;
 }
@@ -71,5 +68,17 @@
   color: #374151;
   margin-top: 5px;
   font-family: "Poppins", sans-serif;
-
+}
+.btn11{
+  height: 48px;
+  width: 154px;
+  margin-top: 25px;
+  margin-left: 25px;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.btn11:hover{
+ background-color: #2e7d32d2;
 }
