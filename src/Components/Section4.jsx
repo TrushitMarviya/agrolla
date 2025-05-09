@@ -28,27 +28,26 @@ export default function Section4() {
   }, []);
 
   return (
-    <div className="main-contain">
       <div className="sec1">
         <img src="/about-agrolla.png" alt="" className="image" />
         <div className="txt">
-          <h1 style={{ color: "#111827" }}>
+          <h1 >
             About <span style={{ color: "#2E7D32" }}>Agrolla</span>
           </h1>
           <h5>
             Founded in 2010, Agrolla has been at the forefront of agricultural
-            innovation, helping farmers across India embrace modern farming
-            techniques and technologies.
+            innovation, <br /> helping farmers across India embrace modern farming
+            techniques and <br /> technologies.
           </h5>
           <h5>
             Our mission is to transform traditional farming practices through
-            sustainable solutions that increase productivity, reduce
-            environmental impact, and improve farmers' livelihoods.
+            sustainable <br /> solutions that increase productivity, reduce
+            environmental impact, and improve <br /> farmers' livelihoods.
           </h5>
           <h5>
             With a team of agricultural experts, engineers, and technology
-            specialists, we provide comprehensive solutions tailored to the
-            unique needs of each farming operation.
+            specialists, we <br /> provide comprehensive solutions tailored to the
+            unique needs of each farming <br /> operation.
           </h5>
           <div className="counter">
             <div className="counter-item">
@@ -71,6 +70,5 @@ export default function Section4() {
           <button className="btn11">Contact Us</button>
         </div>
       </div>
-    </div>
   );
 }

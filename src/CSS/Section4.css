@@ -1,85 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.main-contain {
-  height: 536px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 .sec1 {
-  height: inherit;
-  width: 80%;
-  margin-bottom: 80px;
+  height: 536px;
+  width: 1536px;
+  margin-top: 160px;
+  margin-left: 192px;
   display: flex;
-}
-.image{
-    height:85%;
-    object-fit: contain;
-    position: relative;
-    top: 40px;
-}
-.txt{
-    height: 100%;
-    width: 50%;
-}
-.txt h1{
   font-family: "Poppins", sans-serif;
-    font-weight: bolder;
-    font-size: 52px;
-    padding-left: 25px;
-    padding-top: 35px;
+  margin-bottom: 80px;
 }
-.txt h5{
-  font-family: "Poppins", sans-serif;
-  padding-left: 25px;
-  padding-right: 24px;
-  font-size: 15px;
-  padding-top: 20px;
-  font-weight: 400;
+.image {
+  height: 532.5px;
+  width: 720px;
+}
+.txt {
+  height: 536px;
+  width: 720px;
+  margin-left: 48px;
+}
+.txt h1 {
+font-weight: 700;
+font-size: 36px;
+color: #111827;
+}
+.txt h5 {
+  height: 84px;
+  width: 720px;
+  margin-top: 24px;
+  width: 720px;
+  font-size: 18px !important;
   color: #374151;
+  font-weight: 400;
+  line-height: 24px;
 }
 .counter {
-  height: auto;
-  width: 90%;
-  margin-left: 25px;
-  margin-top: 25px;
+  height: 76px;
+  width: 720px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  margin-top: 12px;
 }
 
 .counter-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .counter-number {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 700;
   color: #2e7d32;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .counter-title {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   color: #374151;
   margin-top: 5px;
-  font-family: "Poppins", sans-serif;
 }
-.btn11{
+.btn11 {
   height: 48px;
   width: 154px;
-  margin-top: 20px;
-  margin-left: 25px;
+  margin-top: 24px;
   background-color: #2e7d32;
   color: #fff;
   border: none;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 5px;
+  font-weight: 500;
+
 }
-.btn11:hover{
- background-color: #2e7d32d2;
+.btn11:hover {
+  background-color: #2e7d32d2;
 }
