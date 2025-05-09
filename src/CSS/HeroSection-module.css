@@ -5,34 +5,36 @@
   height: 100vh;
   overflow: hidden;
 }
-
+*{
+  font-family: "Poppins", sans-serif;
+}
 .cloud {
   position: absolute;
   top: 5%;
   left: 12%;
-  width: 250px;
+  width: 275px;
   animation: float 3s linear;
 }
 .cloud2 {
   position: absolute;
   top: -2%;
   left: 42%;
-  width: 250px;
+  width: 275px;
   animation: float2 3s linear;
 }
 .cloud3 {
   position: absolute;
   top: 5%;
   left: 75%;
-  width: 250px;
+  width: 275px;
   animation: float 3s linear;
 }
 
 .farmer {
   position: absolute;
-  bottom: -36px;
-  left: -1150px;
-  width: 550px;
+  bottom: -52px;
+  left: -1380px;
+  width: 650px;
 }
 
 .windmill {
@@ -43,31 +45,31 @@
   height: auto;
 }
 .wingstand {
-  height: 320px;
+  height: 400px;
   position: absolute;
-  top: -155px;
-  left: -1165px;
+  top: -175px;
+  left: -1450px;
 }
 .wings {
   position: relative;
-  top: -256px;
-  left: -1190px;
+  top: -310px;
+  left: -1482px;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 125%;
   animation: spin 3s linear infinite;
 }
 
 .sideWing {
   position: absolute;
-  top: -190px;
-  left: -1070px;
-  width: 60%;
+  top: -225px;
+  left: -1333px;
+  width: 70%;
 }
 .tractor {
   position: absolute;
   bottom: 29px;
   left: 0px;
-  width: 600px;
+  width: 700px;
   animation: moveTractor 5s ease-in-out forwards;
 }
 .land {
@@ -82,7 +84,7 @@
   position: absolute;
   top: 16%;
   left: 15%;
-  width: 100px;
+  width: 150px;
   opacity: 0;
   animation: fadeIn 2s ease-in forwards;
 }
@@ -91,7 +93,7 @@
   position: absolute;
   top: 16%;
   left: 70%;
-  width: 100px;
+  width: 150px;
   opacity: 0;
   animation: fadeIn 2s ease-in forwards;
 }
@@ -149,8 +151,8 @@
   width: 300px;
   gap: 4px;
   position: relative;
-  top: 575px;
-  left: 320px;
+  top: 790px;
+  left: 450px;
 }
 
 .wheatStalkImg {
@@ -173,123 +175,106 @@
 }
 
 .navbar {
-  height: 60px;
-  width: 100%;
+  height: 72px;
+  width: 1920px;
   background-color: #ffffff;
   position: absolute;
   z-index: 100;
   display: flex;
-  justify-content: center;
   position: fixed;
-  top: 0px;
   background: rgba(97, 97, 97, 0.1);
+  top: 0px;
   backdrop-filter: blur(60px);
 }
 .navsection {
-  height: inherit;
-  width: 75%;
+  height: 72px;
+  width: 1536px;
   display: flex;
   justify-content: space-between;
+  margin-left: 192px;
 }
 .logo {
-  height: 100%;
-  padding: 1%;
+  height: 60px; 
+  width: 120px; 
+  object-fit: contain; 
+  padding-top: 6px;
+  margin-left: 24.37px;
 }
+
 .navlinks a {
   color: #4e4e4e;
   text-decoration: none;
   padding-left: 25px;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  line-height: 60px;
+  line-height: 72px;
 }
 .navlinks a:hover {
   color: #2e7d32;
-  text-decoration: underline; /* Add underline on hover */
-  text-underline-offset: 6px; /* Optional: Adjust the distance of the underline */
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 .bt1 {
-  width: 120px;
+  width: 146px;
   height: 40px;
-  margin-top: 9px;
-  border-radius: 10px;
+  margin-top: 16px;
+  border-radius: 8px;
   border: none;
   background-color: #2e7d32;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
   position: relative;
-  overflow: hidden;
   z-index: 1;
 }
 .heroText {
-  height: auto;
-  width: 500px;
+  height: 376px;
+  width: 604px;
   position: absolute;
-  top: 175px;
-  left: 32%;
+  top: 211px;
+  left: 645px;
   text-align: center;
 }
 .heroName {
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-size: 60px;
   color: #111827;
   font-weight: 700;
 }
 .hero2 {
-  font-family: "Poppins", sans-serif;
   color: #374151;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   padding-top: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
-.btns {
-  margin-top: 30px;
+.btn {
+  height: 52px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
 }
-.btn1 {
-  height: 42px;
-  width: 150px;
+.btt1 {
+  height: 52px;
+  width: 193px;
   background-color: #2e7d32;
   border-radius: 5px;
   border: none;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-.btn1:hover {
-  height: 42px;
-  width: 150px;
+.btt1:hover {
   background-color: #2e7d32d2;
-  border-radius: 5px;
-  border: none;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
 }
-.btn2 {
-  height: 42px;
-  width: 150px;
+.bt2 {
+  height: 52px;
+  width: 158px;
   background-color: #ffffff;
   border-radius: 5px;
   border: 2px solid #2e7d32;
   color: #2e7d32;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin-left: 1rem;
 }
-.btn2:hover {
-  height: 42px;
-  width: 150px;
+.bt2:hover {
   background-color: #2e7d3221;
-  border-radius: 5px;
-  border: 2px solid #2e7d32;
-  color: #2e7d32;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  margin-left: 1rem;
 }

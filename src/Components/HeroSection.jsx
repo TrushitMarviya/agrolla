@@ -81,9 +81,9 @@ export default function Home() {
           yield, minimize environmental impact, and transform farming practices
           for a sustainable future.
         </p>
-        <div className="btns">
-          <button className="btn1">Explore Services</button>
-          <button className="btn2">Contact Us</button>
+        <div className="btn">
+          <button className="btt1">Explore Services</button>
+          <button className="bt2">Contact Us</button>
         </div>
       </div>
     </>
