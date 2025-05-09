@@ -111,7 +111,7 @@ export default function Section7() {
               prices in the market."
             </p>
             <div className="userinfo">
-              <img src="/farmer1.jpg" alt="" />
+              <img src="/farmer3.jpg" alt="" />
               <div className="part2">
                 <p className="name">Vikram Singh</p>
                 <p className="passion">Organic Farmer, Punjab</p>
@@ -175,7 +175,7 @@ export default function Section7() {
               prices in the market."
             </p>
             <div className="userinfo">
-              <img src="/farmer1.jpg" alt="" />
+              <img src="/farmer3.jpg" alt="" />
               <div className="part2">
                 <p className="name">Vikram Singh</p>
                 <p className="passion">Organic Farmer, Punjab</p>
