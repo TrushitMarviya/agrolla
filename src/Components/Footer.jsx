@@ -1,6 +1,5 @@
 "use-client";
 import "@/CSS/Footer.css";
-import { color } from "framer-motion";
 export default function Footer() {
   return (
     <>
