@@ -1,5 +1,5 @@
 import "@/CSS/Section5.css";
-
+Section5
 export default function Section5() {
   return (
     <div className="section1">
