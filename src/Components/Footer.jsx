@@ -8,29 +8,42 @@ export default function Footer() {
         <div className="footer">
           <div className="foot1">
             <img src="/footer-logo.png" alt="" />
-            <li style={{ listStyle: "none" }}>
+            <p id="foot1-p">
               Transforming agriculture through <br />
               innovation and sustainable solutions for a <br />
               better tomorrow.
+            </p>
+            <li>
+              <img src="/location.svg" alt="" />
+              <span>BM Square-1, Rajlaxmi Park,Junagadh</span>
             </li>
-            <li style={{listStyle:"none"}}><img src="/location.svg" alt=""/> 
-            <span>BM Square-1, Rajlaxmi Park,Junagadh</span>
+            <li style={{ listStyle: "none" }}>
+              <img src="/call.svg" alt="" />
+              <span>+91 98765 43210</span>
             </li>
-            <li style={{listStyle:"none"}}><img src="/call.svg" alt=""/>
-            <span>+91 98765 43210</span>
-            </li>
-            <li style={{listStyle:"none"}}><img src="/mail.svg" alt=""/>
-            <span>info@agrolla.in</span>
+            <li style={{ listStyle: "none" }}>
+              <img src="/mail.svg" alt="" />
+              <span>info@agrolla.in</span>
             </li>
           </div>
           <div className="foot2">
             <li id="li-title">Quick Links</li>
             <ul style={{ listStyle: "none" }}>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Products</li>
-              <li>Contact</li>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Products</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
             </ul>
           </div>
           <div className="foot3">
@@ -70,17 +83,10 @@ export default function Footer() {
             </div>
           </div>
         </div>
-          <hr id="footerhr"/>
-          <div className="copy">
-            <p id="copy">
-            © 2025 Agrolla. All rights reserved.
-            </p>
-            <p className="site">
-Privacy-Policy
-Terms-of-Service
-Sitemap
-            </p>
-          </div>
+        <div id="footerhr">
+          <p id="copy">© 2025 Agrolla. All rights reserved.</p>
+          <p className="site">Privacy-Policy Terms-of-Service Sitemap</p>
+        </div>
       </footer>
     </>
   );

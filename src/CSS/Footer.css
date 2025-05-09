@@ -1,115 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 footer {
-  margin-top: 150px;
-  height: 550px;
+  margin-top: 147px;
+  height: 540px;
+  width: 1920px (fixed);
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("/footer.png");
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  padding-top: 80px;
 }
 .footer {
-    width: 88%;
-    color: #fff;
-    position: relative;
-    top: 60px;
-    margin-left: 6%;
-    display: flex;
+  height: 316px;
+  width: 1536px;
+  color: #d1d5db;
+  margin-left: 192px;
+  display: flex;
 }
-.foot1{
-    height: 100%;
-    width: 35%;
+.foot1 {
+  height: 316px;
+  width: 340px;
 }
-.foot1 li{
-    padding-top: 25px;
-    line-height: 25px;
+#foot1-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
 }
-.foot1 li span{
-    position: relative;
-    top: -15px;
-    left: 15px;
-    font-size: 16px;
+.foot1 li {
+  width: 340px;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
 }
-.foot2{
-    height: 100%;
-    width: 15%;
+.foot1 li span {
+  position: relative;
+  top: -15px;
+  left: 15px;
+  font-size: 16px;
+  width: 216px;
+ font-weight: 400;
 }
-li{
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 40px;
-    text-align: left;
-    font-weight: 500;
+.foot2 {
+  height: 316px;
+  width: 340px;
+  margin-left: 48px;
+}
+.foot2 li a {
+  font-size: 16px;
+  padding-top: 0px;
+  
+  text-align: left;
+  font-weight: 400;
+  text-decoration: none;
+  color: #d1d5db;
 }
 .foot2 ul li {
-    position: relative;
-    padding-left: 20px;
-  }
-  .foot2 ul li::before {
-    content: ">";
-    position: absolute;
-    left: 0;
-    font-weight: bold;
-  }
-#li-title{
-    font-size: 25px;
-    font-weight: 800;
-    padding-bottom: 25px;
-    list-style: none !important;
+  position: relative;
+  padding-left: 25px;
 }
-.foot3{
-    height: 100%;
-    width: 18%;
-    padding-left: 35px;
+.foot2 ul li::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
 }
-li{
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 40px;
-    text-align: left;
-    font-weight: 500;
+#li-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #d1d5db;
+  list-style: none !important;
+}
+.foot3 {
+  height: 316px;
+  width: 340px;
+  margin-left: 48px;
+}
+li {
+  font-size: 16px;
+  line-height: 40px;
+  text-align: left;
+  font-weight: 500;
 }
 .foot3 ul li {
-    position: relative;
-    padding-left: 20px; /* Add space for the symbol */
-  }
-  .foot3 ul li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    font-weight: bold;
-  }
-#li-title{
-    font-size: 25px;
-    font-weight: 800;
-    padding-bottom: 25px;
-    list-style: none !important;
+  position: relative;
+  padding-left: 20px;
 }
-.foot4{
-    height: 100%;
-    width: 32%;
-    padding-left: 75px;
+.foot3 ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
 }
-.icons{
-    height: 40px;
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
+#li-title {
+  font-size: 25px;
+  font-weight: 800;
+  padding-bottom: 25px;
+  list-style: none !important;
 }
-#footerhr{
-    margin-top: 130px;
-    width: 90%;
-    margin-left: 5%;
+.foot4 {
+  height: 100%;
+  width: 32%;
+  padding-left: 75px;
 }
-.copy{
-    font-size: 18px;
-    color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 24px;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 5%;
+.icons {
+  height: 40px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
 }
-.site{
-    word-spacing: 35px;
+#footerhr {
+  width: 1504px;
+  margin-left: 208px;
+  margin-top: 64px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid;
+  padding-top: 33px;
+}
+.site {
+  word-spacing: 35px;
 }

@@ -66,6 +66,7 @@
   width: 752px;
   height: 52px;
   display: flex;
+  justify-content: start;
   margin-top: 32px;
 }
 .btn1 {
