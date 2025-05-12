@@ -25,7 +25,7 @@ export default function Page() {
           <img src="/logo.png" alt="Agrolla" className="logo" />
           <div className="navlinks">
             <a href="/">Home</a>
-            <a href="/products">Products</a>
+            <a href="/product">Products</a>
             <a href="/about">About us</a>
             <a href="/contact" style={{ color: "#2E7D32" }}>
               Contact

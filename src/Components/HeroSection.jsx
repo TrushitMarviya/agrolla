@@ -21,7 +21,7 @@ export default function Home() {
           <img src="/logo.png" alt="Agrolla" className="logo" />
           <div className="navlinks">
             <a href="/" style={{ color: "#2E7D32" }}>Home</a>
-            <a href="/products">Products</a>
+            <a href="/product">Products</a>
             <a href="/about">About us</a>
             <a href="/contact">Contact</a>
           </div>
