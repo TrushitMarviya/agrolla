@@ -9,13 +9,12 @@
 .navbar {
   height: 72px;
   width: 1920px;
-  background-color: #ffffff;
   position: absolute;
   z-index: 100;
   display: flex;
   position: fixed;
   top: 0px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(26, 26, 26, 0.1);
   backdrop-filter: blur(60px);
 }
 .navsection {
@@ -57,4 +56,225 @@
   font-size: 16px;
   position: relative;
   z-index: 1;
+}
+.herosection {
+  height: 1000px;
+  width: 1920px (fixed);
+  position: relative;
+  top: 72px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/abouthero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.titles {
+  height: 242px;
+  width: 645px;
+  margin-left: 200px;
+  position: relative;
+  top: 379px;
+}
+.h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.h6 {
+  font-size: 19px;
+  font-weight: 400;
+  color: #d3d3d3;
+  padding-top: 16px;
+}
+.btns {
+  height: 58px;
+  width: 645px;
+  display: flex;
+  margin-top: 16px;
+  padding-top: 8px;
+}
+.btn1 {
+  width: 123px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2e7d32;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn2 {
+  width: 123px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  color: #1f2937;
+  font-weight: 600;
+  background-color: #ffffff;
+  font-size: 16px;
+  margin-left: 16px;
+}
+.section1 {
+  height: 921.05px;
+  width: 1920px (fixed);
+  position: relative;
+  border: 2px solid #fff;
+  top: 72px;
+  margin-top: 80px;
+}
+.who {
+  height: 761.05px;
+  width: 1536px;
+  margin-top: 80px;
+  margin-left: 192px;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.semititle {
+  color: #4b5563;
+  width: 768px;
+  margin-left: 384px;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 18px;
+}
+.detail {
+  width: 1504px;
+  height: 613.05px;
+  margin-top: 48px;
+  margin-left: 16px;
+  display: flex;
+}
+.desc {
+  height: 408px;
+  width: 728px;
+  margin-top: 102.53px;
+}
+.img img {
+  height: 613.05px;
+  width: 728px;
+  margin-left: 48px;
+  border-radius: 8px;
+}
+.description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #374151;
+  padding-bottom: 24px;
+  line-height: 24px;
+}
+.quality {
+  height: 216px;
+  width: 728px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.quality1 {
+  height: 92px;
+  width: 352px;
+  display: flex;
+}
+.txt {
+  margin-left: 16px;
+  width: 279px;
+}
+.tit {
+  color: #111827;
+  font-size: 16px;
+  font-weight: 600;
+}
+.des {
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 8px;
+}
+.quality1 img {
+  height: 48px;
+  width: 48px;
+}
+.section2 {
+  height: 720px;
+  width: 1920px (fixed);
+  position: relative;
+  top: 72px;
+  background-color: #f9fafb;
+}
+.mission {
+  height: 560px;
+  width: 1536px;
+  margin-left: 192px;
+  position: relative;
+  top: 80px;
+  display: flex;
+}
+.mission1 {
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 560px;
+  width: 736px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.missionImg{
+  height: 64px;
+  width: 64px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.missionTitle{
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+ul{
+  list-style: "✓";
+  font-size: 22px;
+  color: #4CAF50;
+  font-weight: bolder;
+  padding-left: 48px;
+}
+li{
+  margin-top: 16px;
+}
+.listTitle{
+  font-weight: 600;
+  font-size: 16px;
+  color: #111827;
+  padding-left: 12px;
+}
+.listDesc{
+  color: #4B5563;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 12px;
+}
+.visionTitle{
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 32px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.visionImg{
+  height: 192px;
+  width: 672px;
+  margin-left: 32px;
+  border-radius: 16px;
+}
+.visionsentence{
+  font-style: italic;
+  margin-top: 24px;
+  width: 672px;
+  margin-left: 32px;
+  text-align: center;
+  color: #4B5563;
+  font-weight: 400;
 }
