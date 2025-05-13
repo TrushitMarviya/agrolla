@@ -47,8 +47,6 @@ export default function Section8() {
                 id="cb1"
               />
               <label htmlFor="">I agree to the terms and privacy policy</label>{" "}
-              <br />
-              <br />
               <button className="send">Send Message</button>
             </form>
           </div>
