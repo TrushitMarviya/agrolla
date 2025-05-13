@@ -155,9 +155,76 @@ export default function About() {
             </p>
             <img src="/visionimg.jpg" alt="" className="visionImg" />
             <p className="visionsentence">
-              "At Agrolla Impex, we don't just export agro products—we deliver trust, excellence,
-and a commitment to quality in every shipment."
+              "At Agrolla Impex, we don't just export agro products—we deliver
+              trust, excellence, and a commitment to quality in every shipment."
             </p>
+          </div>
+        </div>
+      </div>
+      {/* Section3  */}
+      <div className="section3">
+        <div className="values">
+          <p className="title">Our Values</p>
+          <p className="semititle">
+            At Agrolla Impex, our foundation is built on principles that define
+            our commitment to excellence, integrity, and customer satisfaction.{" "}
+          </p>
+          <div className="valueContainer">
+            <div className="value1">
+              <img src="/uncompromie.svg" alt="" className="valueImg" />
+              <p className="valueTitle">Uncompromising Quality</p>
+              <p className="valueDesc">
+                We adhere to the strictest international food safety standards,
+                ensuring that every product we supply is pure, fresh, and meets
+                global regulatory requirements.
+              </p>
+            </div>
+            <div className="value1">
+              <img src="/integrety.svg" alt="" className="valueImg" />
+              <p className="valueTitle">Integrity & Transparency</p>
+              <p className="valueDesc">
+                We believe in honest business practices, maintaining full
+                transparency in our sourcing, processing, and export operations.
+                Our clients trust us for ethical dealings and fair trade.
+              </p>
+            </div>
+            <div className="value1">
+              <img src="/centric.svg" alt="" className="valueImg" />
+              <p className="valueTitle">Farmer-Centric Approach</p>
+              <p className="valueDesc">
+                Our close collaboration with farmers ensures fair compensation
+                and access to best agricultural practices. We maintain
+                traceability and sustainability from farm to market.
+              </p>
+            </div>
+            <div className="value1">
+              <img src="/innovation.svg" alt="" className="valueImg" />
+              <p className="valueTitle">Innovation & Excellence</p>
+              <p className="valueDesc">
+                We continuously invest in advanced processing technology and
+                innovative techniques to enhance product quality and efficiency,
+                meeting the dynamic needs of the global agro-market.
+              </p>
+            </div>
+            <div className="value1">
+              <img src="/customer.svg" alt="" className="valueImg" />
+              <p className="valueTitle">Customer Commitment</p>
+              <p className="valueDesc">
+                Customer satisfaction is at the heart of everything we do. We
+                provide tailored solutions, timely deliveries, and unmatched
+                service quality, building long-term partnerships.
+              </p>
+            </div>
+            <div className="value1">
+              <img src="/Perspective.svg" alt="" className="valueImg" />
+              <p className="valueTitle">Global Perspective</p>
+              <p className="valueDesc">
+                With an international outlook, we understand diverse market
+                needs and cultural preferences, adapting our products and
+                services to meet global demands while maintaining local
+                relevance.
+              </p>
+            </div>
           </div>
         </div>
       </div>
