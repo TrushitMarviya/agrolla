@@ -472,7 +472,7 @@ export default function About() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> <br />
                 <div className="socialIcon">
                   <p className="socialTitle">Connect With Us</p>
                   <img src="/linkedin.svg" alt="" />
