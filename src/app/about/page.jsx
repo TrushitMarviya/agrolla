@@ -228,6 +228,189 @@ export default function About() {
           </div>
         </div>
       </div>
+      {/* Section4 */}
+      <div className="section4">
+        <div className="qualityProcess">
+          <p className="title">Our Quality Assurance Process</p>
+          <p className="semititle">
+            We follow a rigorous quality control process to ensure that every
+            product meets international standards.
+          </p>
+          <div className="process">
+            <div className="proceessLine">
+              <div className="processImgContainer">
+                <img src="/process1.svg" alt="" className="processImg" />
+                <div className="connectingLine"></div>
+              </div>
+              <div className="statement">
+                <p className="statementTitle">Sourcing & Selection</p>
+                <p className="statementSemititle">
+                  We carefully select farmers and suppliers who follow
+                  sustainable and ethical farming practices. Our agronomists
+                  regularly visit farms to ensure quality standards are
+                  maintained from the cultivation stage.
+                </p>
+                <div className="bookmarkContainer">
+                  <img src="/bookmark.svg" alt="" />
+                  <p className="bookmarkStatement">
+                    Direct farmer relationships for traceability and quality
+                    control
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="proceessLine">
+              <div className="processImgContainer">
+                <img src="/process2.svg" alt="" className="processImg" />
+                <div className="connectingLine"></div>
+              </div>
+              <div className="statement">
+                <p className="statementTitle">Raw Material Inspection</p>
+                <p className="statementSemititle">
+                  All incoming raw materials undergo thorough inspection for
+                  physical properties, moisture content, and potential
+                  contaminants. Only materials meeting our strict criteria
+                  proceed to processing.
+                </p>
+                <div className="bookmarkContainer">
+                  <img src="/bookmark.svg" alt="" />
+                  <p className="bookmarkStatement">
+                    Advanced testing equipment for accurate quality assessment
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="proceessLine">
+              <div className="processImgContainer">
+                <img src="/process3.svg" alt="" className="processImg" />
+                <div className="connectingLine"></div>
+              </div>
+              <div className="statement">
+                <p className="statementTitle">Processing & Cleaning</p>
+                <p className="statementSemititle">
+                  Our state-of-the-art processing facilities use advanced
+                  technology for cleaning, sorting, grading, and packaging.
+                  Every step is monitored to maintain product integrity and
+                  quality.
+                </p>
+                <div className="bookmarkContainer">
+                  <img src="/bookmark.svg" alt="" />
+                  <p className="bookmarkStatement">
+                    ISO-certified processing facilities with HACCP
+                    implementation
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="proceessLine">
+              <div className="processImgContainer">
+                <img src="/process4.svg" alt="" className="processImg" />
+                <div className="connectingLine"></div>
+              </div>
+              <div className="statement">
+                <p className="statementTitle">Laboratory Testing</p>
+                <p className="statementSemititle">
+                  Our in-house laboratory conducts comprehensive tests for
+                  physical, chemical, and microbiological parameters. We also
+                  work with accredited third-party labs for additional
+                  verification.
+                </p>
+                <div className="bookmarkContainer">
+                  <img src="/bookmark.svg" alt="" />
+                  <p className="bookmarkStatement">
+                    Comprehensive testing for aflatoxins, pesticide residues,
+                    and more
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="proceessLine">
+              <div className="processImgContainer">
+                <img src="/process5.svg" alt="" className="processImg" />
+              </div>
+              <div className="statement">
+                <p className="statementTitle">
+                  Final Inspection & Certification
+                </p>
+                <p className="statementSemititle">
+                  Before shipping, all products undergo final inspection and
+                  receive necessary certifications. Our quality assurance team
+                  ensures compliance with destination country requirements.
+                </p>
+                <div className="bookmarkContainer">
+                  <img src="/bookmark.svg" alt="" />
+                  <p className="bookmarkStatement">
+                    Documentation and certification aligned with global
+                    standards
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="Certificate">Our Certifications</p>
+        <div className="company">
+          <img src="/cer1.png" alt="" />
+          <img src="/cer2.png" alt="" />
+          <img src="/cer3.png" alt="" />
+          <img src="/cer4.png" alt="" />
+          <img src="/cer5.png" alt="" />
+        </div>
+      </div>
+      {/* Section5 */}
+      <div className="section5">
+        <div className="team">
+          <p className="title">Meet Our Leadership Team</p>
+          <p className="semititle">
+            Our experienced team brings decades of expertise in agriculture,
+            international trade, and quality management.
+          </p>
+          <div className="teamMember">
+            <div className="members">
+              <img src="/member1.png" alt="" className="memberImg" />
+              <p className="memberName">Rajesh Patel</p>
+              <p className="memberPosition">Founder & CEO</p>
+              <p className="about">
+                With 25+ years in agro-exports, Rajesh leads our global vision
+                and strategic partnerships.
+              </p>
+            </div>
+            <div className="members">
+              <img src="/member2.png" alt="" className="memberImg" />
+              <p className="memberName">Priya Sharma</p>
+              <p className="memberPosition">Chief Operations Officer</p>
+              <p className="about">
+                Priya oversees all operational aspects, ensuring efficiency and
+                excellence in our processing facilities.
+              </p>
+            </div>
+            <div className="members">
+              <img src="/member3.jpg" alt="" className="memberImg" />
+              <p className="memberName">Vikram Mehta</p>
+              <p className="memberPosition">Global Sales Director</p>
+              <p className="about">
+                Vikram leads our international sales team, developing new
+                markets and strengthening client relationships.
+              </p>
+            </div>
+            <div className="members">
+              <div className="memberImg">
+                <img src="/member4.jpg" alt="" />
+              </div>
+              <p className="memberName">Dr. Anand Kumar</p>
+              <p className="memberPosition">Quality Assurance Head</p>
+              <p className="about">
+                With a PhD in Food Science, Dr. Kumar ensures our products meet
+                the highest quality and safety standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Section6 */}
+      <div className="section6">
+        
+      </div>
     </>
   );
 }

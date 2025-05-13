@@ -281,7 +281,7 @@ li {
 .section3 {
   height: 860px;
   width: 1920px (fixed);
-  border: 2px solid ;
+  border: 2px solid #fff;
   position: relative;
   top: 72px;
 }
@@ -328,4 +328,157 @@ li {
   color: #4b5563;
   line-height: 24px;
   margin-right: 42px;
+}
+.section4{
+height: 1522px;
+width: 1920px (fixed);
+border: 2px solid #fff;
+position: relative;
+top: 72px;
+}
+.qualityProcess{
+height: 1136px;
+width: 1536px;
+margin-top: 80px;
+margin-left: 192px;
+}
+.process{
+  height: 988px;
+  width: 896px;
+  margin-left: 320px;
+  margin-top: 48px;
+}
+.proceessLine{
+  height: 172px;
+  width: 896px;
+  margin-bottom: 32px;
+  display: flex;
+}
+.statement{
+  width: 829px;
+  margin-left:24px;
+}
+.processImg{
+  height: 40px;
+}
+.statementTitle{
+  font-size: 20px;
+  font-weight: 600;
+}
+.statementSemititle{
+  font-size: 16px;
+  font-weight: 600;
+  color: #4b5563;
+  padding-top: 8px;
+  line-height: 24px;
+}
+.bookmarkContainer{
+  height: 72px;
+  width: 820px;
+  margin-top: 8px;
+  border-radius: 16px;
+  background-color: #F9FAFB;
+  display: flex;
+  padding-left: 23.5px;
+  align-items: center;
+}
+.bookmarkStatement{
+  color: #374151;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 19.5px;
+}
+.processImgContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connectingLine {
+  height: 500px;
+  width: 2px;
+  background-color: #ccc;
+  position: relative;
+  top: 15px;
+}
+.proceessLine:last-child .connectingLine {
+  display: none;
+}
+.Certificate{
+  text-align: center;
+  margin-top: 64px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.company{
+   margin-top: 60px;
+   width: 1230px;
+   height: 150px;
+   margin-left: 345px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.company img{
+  height: 140px;
+}
+.section5{
+  height: 732px;
+  width: 1920px (fixed);
+  border: 2px solid red;
+  position: relative;
+  top: 72px;
+  margin-top: 80px;
+}
+.team{
+  height: 572px;
+  width: 1536px;
+  margin-left: 192px;
+  margin-top: 80px;
+}
+.teamMember{
+  height: 424px;
+  width: 1504px;
+  margin-top: 48px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.members{
+  height: 424px;
+  width: 352px;
+  border-radius: 16px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(0, 0, 0, 0.1);
+}
+.memberImg{
+  height: 256px;
+  width: 352px;
+  border-radius: 16px 16px 0px 0px;
+}
+.memberImg img{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.memberName{
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.memberPosition{
+  font-weight: 600;
+  font-size: 16px;
+  color: #4CAF50;
+  padding-top: 4px;
+  padding-left: 20px;
+}
+.about{
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4B5563;
 }
