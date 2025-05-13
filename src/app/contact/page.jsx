@@ -174,54 +174,46 @@ export default function Page() {
             <button className="accordion-title">
               What is the typical response time for inquiries?
             </button>
-            <div className="accordion-content">
-              <p>
-                We strive to respond to all inquiries within 24 business hours.
-                For urgent matters, please call our main office directly.
-              </p>
-            </div>
+            <p className="accordion-content">
+              We strive to respond to all inquiries within 24 business hours.
+              For urgent matters, please call our main office directly.
+            </p>
           </div>
           <div className="accordion-item">
             <button className="accordion-title">
               Do you offer on-site consultations?
             </button>
-            <div className="accordion-content">
-              <p>
-                Yes, we provide on-site consultations for larger projects and
-                implementations. Please contact our sales team to schedule a
-                visit.
-              </p>
-            </div>
+            <p className="accordion-content">
+              Yes, we provide on-site consultations for larger projects and
+              implementations. Please contact our sales team to schedule a
+              visit.
+            </p>
           </div>
           <div className="accordion-item">
             <button className="accordion-title">
               How can I request a product demonstration?
             </button>
-            <div className="accordion-content">
-              <p>
-                Product demonstrations can be scheduled through our sales team.
-                Fill out the contact form above or call us directly to arrange a
-                demo.
-              </p>
-            </div>
+            <p className="accordion-content">
+              Product demonstrations can be scheduled through our sales team.
+              Fill out the contact form above or call us directly to arrange a
+              demo.
+            </p>
           </div>
           <div className="accordion-item">
             <button className="accordion-title">
               What areas do you service?
             </button>
-            <div className="accordion-content">
-              <p>
-                We provide services throughout the United States, with additional support available in
-select international locations.
-              </p>
-            </div>
+            <p className="accordion-content">
+              We provide services throughout the United States, with additional
+              support available in select international locations.
+            </p>
           </div>
         </div>
       </div>
       {/* footer */}
-    <div className="section5">
-        <Footer/>
-    </div>
+      <div className="section5">
+        <Footer />
+      </div>
     </>
   );
 }

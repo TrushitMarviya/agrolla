@@ -287,7 +287,10 @@ p.h4 {
 }
 
 .accordion-content {
-  padding: 8px 32px 8 24px;
+  padding-top: 8px;
+  padding-left: 32px;
+  padding-right: 24px;
+  padding-bottom: 8px;
   font-weight: 700;
   display: block;
   font-size: 16px;
