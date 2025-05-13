@@ -33,7 +33,7 @@ export default function Section8() {
                 <option value="">Service2</option>
               </select><br />
               <br />
-              <label htmlFor="">Your Message</label> <br /> <br />
+              <label htmlFor="">Your Message</label>
               <textarea
                 name=""
                 id=""
