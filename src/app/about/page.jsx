@@ -1,4 +1,5 @@
 import "@/app/about/about.css";
+import Footer from "@/Components/Footer";
 export default function About() {
   return (
     <>
@@ -511,6 +512,46 @@ export default function About() {
             </div>
           </div>
         </div>
+      </div>
+      {/* Section7 */}
+      <div className="section7">
+        <div className="global">
+          <p className="title">Our Global Presence</p>
+          <p className="semititle">
+            We export premium agricultural products to over 30 countries across
+            5 continents.
+          </p>
+          <div className="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.4194154846816!3d37.77492977975971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f0e2c5b1%3A0x4c8b8b6e8f8b8b8b!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1681234567890!5m2!1sen!2sus"
+              width="1504px"
+              height="400px"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="eager"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      {/* Section8 */}
+      <div className="section8">
+        <div className="partner">
+          <p className="title">Ready to Partner with Agrolla Impex?</p>
+          <p className="semititle2">
+            Join our global network of satisfied customers and experience the
+            premium quality and service that sets us <br />
+            apart.
+          </p>
+          <div className="btnGroup">
+            <button id="btn1">Contact Us Today</button>
+            <button id="btn2">Request a Quote </button>
+          </div>
+        </div>
+      </div>
+      {/* Footer */}
+      <div className="aboutFooter">
+        <Footer/>
       </div>
     </>
   );

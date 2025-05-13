@@ -485,9 +485,10 @@ li {
 .section6 {
   height: 842px;
   width: 1920px (fixed);
-  border: 2px solid green;
   position: relative;
   top: 72px;
+  border: 2px solid #fff;
+  background-color: #F9FAFB;
 }
 .getTouch {
   height: 682px;
@@ -507,6 +508,7 @@ li {
   width: 480px;
   border-radius: 16px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 .sentMessage {
   height: 558px;
@@ -514,6 +516,7 @@ li {
   border-radius: 16px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(0, 0, 0, 0.1);
   margin-left: 32px;
+  background-color: #fff;
 }
 .formTitle {
   font-weight: 600;
@@ -547,72 +550,150 @@ li {
   font-weight: 600;
   color: #111827;
 }
-.loca{
+.loca {
   font-weight: 400;
   font-size: 16px;
   color: #374151;
 }
-.socialIcon{
+.socialIcon {
   height: 88px;
   width: 416px;
   margin-top: 24px;
   margin-left: 32px;
 }
-.socialTitle{
+.socialTitle {
   font-size: 16px;
   font-weight: 700;
   color: #111827;
   margin-top: 8px;
 }
-.socialIcon img{
-  height:40px;
-  width: 40px; 
-  margin-top:16px;
+.socialIcon img {
+  height: 40px;
+  width: 40px;
+  margin-top: 16px;
   margin-right: 16px;
 }
-form{
+form {
   height: 426px;
   width: 928px;
   margin-left: 32px;
   margin-top: 24px;
 }
-.nameEmail{
+.nameEmail {
   height: 72px;
   width: 928px;
   display: flex;
   display: flex;
   margin-bottom: 24px;
 }
-.name{
+.name {
   margin-right: 23px;
 }
-label{
+label {
   font-size: 14px;
   font-weight: 600;
   color: #374151;
 }
-input{
-  border: 2px solid #E5E7EB;
+input {
+  border: 2px solid #e5e7eb;
   border-radius: 8px;
   height: 42px;
   width: 452px;
   margin-top: 8px;
 }
-textarea{
-  border: 2px solid #E5E7EB;
+textarea {
+  border: 2px solid #e5e7eb;
   border-radius: 8px;
   height: 138px;
   width: 928px;
   margin-top: 8px;
 }
-.formBtn{
+.formBtn {
   height: 48px;
   width: 166px;
   margin-top: 24px;
   border: none;
   border-radius: 8px;
-  background-color: #2E7D32;
-  color: #FFFFFF;
+  background-color: #2e7d32;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
+}
+.section7 {
+  height: 684px;
+  width: 1920px (fixed);
+  border: 2px solid #fff;
+  position: relative;
+  top: 72px;
+}
+.global {
+  height: 524px;
+  width: 1536px;
+  margin-top: 80px;
+  margin-left: 192px;
+}
+.map {
+  height: 400px;
+  width: 1504px;
+  margin-left: 16px;
+  margin-top: 48px;
+  border-radius: 8px !important;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.section8{
+  height: 342px;
+  width: 1920px (fixed);
+  border: 2px solid #fff;
+  position: relative;
+  top: 72px;
+  background-color: #4CAF501A;
+}
+.partner{
+  height: 182px;
+  width: 896px;
+  margin-left: 512px;
+  margin-top: 80px;
+
+}
+.semititle2 {
+  color: #4b5563;
+  width: 896px;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 18px;
+}
+.btnGroup{
+  height: 66px;
+  width: 896px;
+  margin-top: 16px;
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+#btn1{
+  height: 50px;
+  width: 208px;
+  background-color: #2E7D32;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#btn2{
+  height: 50px;
+  width: 200px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  font-weight: 600;
+  margin-left: 16px;
+}
+.aboutFooter{
+  width: 1920px(fixed);
+  position: relative;
+  top: 77px;
 }
