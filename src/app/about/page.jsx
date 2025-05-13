@@ -409,7 +409,108 @@ export default function About() {
       </div>
       {/* Section6 */}
       <div className="section6">
-        
+        <div className="getTouch">
+          <p className="title">Get in Touch</p>
+          <p className="semititle">
+            Have questions about our products or services? We'd love to hear
+            from you.
+          </p>
+          <div className="getInTouch">
+            <div className="contactInfo">
+              <div className="addressDetail">
+                <p className="formTitle">Contact Information</p>
+                <div className="locations">
+                  <div className="location">
+                    <div className="locationImg">
+                      <img src="/location.svg" alt="" />
+                    </div>
+                    <div className="aboutDetail">
+                      <p className="head">Headquarters</p>
+                      <p className="loca">
+                        BM Square-1, Rajlaxmi Park, <br />
+                        Junagadh
+                      </p>
+                    </div>
+                  </div>
+                  <div className="location">
+                    <div className="locationImg">
+                      <img src="/call.svg" alt="" />
+                    </div>
+                    <div className="aboutDetail">
+                      <p className="head">Phone</p>
+                      <p className="loca">
+                        +91 79 2345 6789
+                        <br />
+                        +1 (800) 123-4567 (International)
+                      </p>
+                    </div>
+                  </div>
+                  <div className="location">
+                    <div className="locationImg">
+                      <img src="/mail.svg" alt="" />
+                    </div>
+                    <div className="aboutDetail">
+                      <p className="head">Email</p>
+                      <p className="loca">
+                        info@agrollaimpex.com
+                        <br />
+                        exports@agrollaimpex.com
+                      </p>
+                    </div>
+                  </div>
+                  <div className="location">
+                    <div className="locationImg">
+                      <img src="/clock.svg" alt="" />
+                    </div>
+                    <div className="aboutDetail">
+                      <p className="head">Business Hours</p>
+                      <p className="loca">
+                        Monday - Friday: 9:00 AM - 6:00 PM IST
+                        <br />
+                        Saturday: 9:00 AM - 1:00 PM IST
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="socialIcon">
+                  <p className="socialTitle">Connect With Us</p>
+                  <img src="/linkedin.svg" alt="" />
+                  <img src="/twitter.svg" alt="" />
+                  <img src="/facebook.svg" alt="" />
+                  <img src="/instagram.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="sentMessage">
+              <p className="formTitle">Send Us a Message</p>
+              <form action="">
+                <div className="nameEmail">
+                  <div className="name">
+                    <label htmlFor="">Your Name</label> <br />
+                    <input type="text" />
+                  </div>
+                  <div className="name">
+                    <label htmlFor="">Email Address</label> <br />
+                    <input type="text" />
+                  </div>
+                </div>
+                <div className="nameEmail">
+                  <div className="name">
+                    <label htmlFor="">Company Name</label> <br />
+                    <input type="text" />
+                  </div>
+                  <div className="name">
+                    <label htmlFor="">Subject</label> <br />
+                    <input type="text" />
+                  </div>
+                </div>
+                <label htmlFor="">Your Message</label> <br />
+                <textarea></textarea> <br />
+                <button className="formBtn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
