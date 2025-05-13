@@ -16,6 +16,7 @@ export default function Section8() {
             <form action="">
               {" "}
               <br />
+              <br />
               <label htmlFor="">Your Name</label> <br />
               <input type="text" placeholder="Enter Your name" /> <br />
               <br />
@@ -23,17 +24,16 @@ export default function Section8() {
               <input type="text" placeholder="Enter Your email" /> <br />
               <br />
               <label htmlFor="">Phone Number</label> <br />
-              <input type="text" placeholder="Enter Your phone number " />
-              <br />
+              <input type="text" placeholder="Enter Your phone number " /><br />
               <br />
               <label htmlFor="">Service Interested In</label> <br />
               <select name="" id="">
                 <option value="">Select a services</option>
                 <option value="">Service1</option>
                 <option value="">Service2</option>
-              </select>
-              <br /> <br />
-              <label htmlFor="">Your Message</label> <br /> <br />
+              </select><br />
+              <br />
+              <label htmlFor="">Your Message</label> <br />
               <textarea
                 name=""
                 id=""

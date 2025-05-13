@@ -68,6 +68,8 @@ textarea {
   width: 656px;
   font-size: 18px;
   padding: 15px;
+  margin-top: 8px;
+  border-radius: 8px !important;
 }
 #cb1 {
   height: 20px;
