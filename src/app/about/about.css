@@ -234,14 +234,14 @@
   margin-top: 24px;
   margin-bottom: 24px;
 }
-ul {
+.ul {
   list-style: "✓";
   font-size: 22px;
   color: #4caf50;
   font-weight: bolder;
   padding-left: 48px;
 }
-li {
+.ul li{
   margin-top: 16px;
 }
 .listTitle {
@@ -255,6 +255,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   padding-left: 12px;
+  line-height: 10px;
 }
 .visionTitle {
   font-weight: 500;
@@ -696,4 +697,8 @@ textarea {
   width: 1920px(fixed);
   position: relative;
   top: 77px;
+}
+.section9{
+  position: relative;
+  top: 72px;
 }

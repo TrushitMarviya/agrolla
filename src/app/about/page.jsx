@@ -111,7 +111,7 @@ export default function About() {
           <div className="mission1">
             <img src="/mission.svg" alt="" className="missionImg" />
             <p className="missionTitle">Our Mission</p>
-            <ul>
+            <ul className="ul">
               <li>
                 <p className="listTitle">Uncompromised Quality</p>
                 <p className="listDesc">Uncompromised Quality</p>
@@ -550,7 +550,7 @@ export default function About() {
         </div>
       </div>
       {/* Footer */}
-      <div className="aboutFooter">
+      <div className="section9">
         <Footer/>
       </div>
     </>
