@@ -41,7 +41,7 @@ export default function Section8() {
                 placeholder="Enter your message"
               ></textarea>
               <br />
-              <br /> <br />
+              <br /> 
               <input
                 type="checkbox"
                 placeholder="Enter Your phone number "
